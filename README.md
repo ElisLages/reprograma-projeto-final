@@ -86,6 +86,8 @@ Manipulando registros (administradora)
 | Atualização de 'valor' de mentoras | PATCH | '/mentoras/id' |
 | Remoção de mentoras | DELETE | '/mentoras/id' |
 
+| Feature | Método | Rota |
+|---------|--------|------|
 | Cadastro de mentoranda | POST | '/mentorandas' |
 | Atualização de cadastro de mentorandas | PUT | '/mentorandas/id' |
 | Atualização de 'valor' de mentorandas | PATCH | '/mentorandas/id' |
