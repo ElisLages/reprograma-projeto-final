@@ -1,4 +1,4 @@
-#Projeto final do bootcamp Back-end - Porto Digital em parceria com o projeto MINAS.
+# Projeto final do bootcamp Back-end - Porto Digital em parceria com o projeto MINAS.
 
 Num mundo tão vasto quanto o da Tecnologia, os espaços, infelizmente, ainda são dominados por um padrão hegemônico: Homem, branco, heterossexual e cis. 
 
@@ -20,7 +20,7 @@ As pessoas mentoras ou mentorandas, se cadastram no sistema fornecendo nome, ema
 Enquanto projeto em início, serão disponibilizadas três áreas de ensino: Lógica de Programação, Git e Github e JavaScript.
   
 
-    **TECNOLOGIAS UTILIZADAS:**
+    ** TECNOLOGIAS UTILIZADAS: **
         - MongoDB Atlas
         - Node.js
         - Git/Github
@@ -29,14 +29,14 @@ Enquanto projeto em início, serão disponibilizadas três áreas de ensino: Ló
         - Heroku - [https://mulheres-mentoras.herokuapp.com/]
 
  
-    **DEPENDÊNCIAS UTILIZADAS:**
+    ** DEPENDÊNCIAS UTILIZADAS: **
         - Mongoose
         - Express
         - Nodemon
         - Dotenv-safe
 
 
-####INSTRUÇÕES PARA A UTILIZAÇÃO DA API
+#### INSTRUÇÕES PARA A UTILIZAÇÃO DA API
 
  - Para utilizar esta API é necessária a instalação das tecnologias NodeJS e MongoDB.
 
@@ -52,7 +52,7 @@ Enquanto projeto em início, serão disponibilizadas três áreas de ensino: Ló
            $ npm start
 
 
-####CONTRIBUINDO COM O PROJETO
+#### CONTRIBUINDO COM O PROJETO
 
 1. Faça o fork do projeto
 2. Crie uma branch para sua modificação (git checkout -b feature/any)
@@ -61,11 +61,11 @@ Enquanto projeto em início, serão disponibilizadas três áreas de ensino: Ló
 5. Crie um novo Pull Request
 
 
-###FEATURES E ROTAS
+### FEATURES E ROTAS
 
 Esta API está sendo executada na `porta 8080` e para que todas as rotas possam ser acessadas localmente é necessário utlizar `http://localhost:8080/` antes dos endpoints de requisição.
 
-**Manipulando registros (Usuária)**
+** Manipulando registros (Usuária) **
 
 | Feature | Método | Rota |
 |---------|--------|------|
@@ -78,7 +78,7 @@ Esta API está sendo executada na `porta 8080` e para que todas as rotas possam 
 | Lista de todas as mentorandas | GET | `/mentorandas` |
 | Lista de todas as mentorandas por área | GET | `/mentorandas/area/<AREA_DE_APRENDIZADO_DESEJADO>` |
 
-**Manipulando registros (administradora)**
+** Manipulando registros (administradora) **
 
 | Feature | Método | Rota |
 |---------|--------|------|
