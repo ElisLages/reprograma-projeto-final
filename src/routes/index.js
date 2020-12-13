@@ -10,8 +10,6 @@ router.get("/", function (req, res) {
       title: "MULHERES MENTORAS",
       description: "UMA SOBE E PUXA A OUTRA!"
 
-      
-
     }
   })
 })

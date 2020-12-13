@@ -20,7 +20,7 @@ As pessoas mentoras ou mentorandas, se cadastram no sistema fornecendo nome, ema
 Enquanto projeto em início, serão disponibilizadas três áreas de ensino: Lógica de Programação, Git e Github e JavaScript.
   
 
-    **TECNOLOGIAS UTILIZADAS:**
+    TECNOLOGIAS UTILIZADAS:
         - MongoDB Atlas
         - Node.js
         - Git/Github
@@ -29,7 +29,7 @@ Enquanto projeto em início, serão disponibilizadas três áreas de ensino: Ló
         - Heroku - [https://mulheres-mentoras.herokuapp.com/]
 
  
-    **DEPENDÊNCIAS UTILIZADAS:**
+    DEPENDÊNCIAS UTILIZADAS:
         - Mongoose
         - Express
         - Nodemon
