@@ -8,7 +8,7 @@ router.get("/", function (req, res) {
     version: "1.0.0",
     Content: {
       title: "MULHERES MENTORAS",
-      description: "UMA SOBE E PUXA A OUTRA!"
+      description: "Uma API com o propósito de facilitar o encontrar e o comunicar entre mulheres que desejam mentorar e que desejam ser mentoradas."
 
     }
   })
