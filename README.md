@@ -1,4 +1,4 @@
-##Reprograma - Projeto Final  
+Projeto final do bootcamp Back-end - Porto Digital em parceria com o projeto MINAS.
 
 Num mundo tão vasto quanto o da Tecnologia, os espaços, infelizmente, ainda são dominados por um padrão hegemônico: Homem, branco, heterossexual e cis. 
 
@@ -14,21 +14,82 @@ Para que nós, a medida de nossa disponibilidade, possamos mentorar outras mulhe
 
 -
 
-Para isto, criei uma API que cadastra pessoas que se interessem em mentorar ou em ser mentorada. 
+Para isto, criei um banco de dados de pessoas que se interessem em mentorar ou em ser mentorada. 
 As pessoas mentoras ou mentorandas, se cadastram no sistema fornecendo nome, email e se quer mentorar ou ser mentorada.
+
+Enquanto projeto em início, serão disponibilizadas três áreas de ensino: Lógica de Programação, Git e Github e JavaScript.
   
 
-Tecnologias Utilizadas: 
+    TECNOLOGIAS UTILIZADAS: 
+        - MongoDB Atlas
+        - Node.js
+        - Git/Github
+        - NPM
+        - Postman
+        - Heroku - [https://mulheres-mentoras.herokuapp.com/]
 
-Mongo DB
-Node JS
-VS CODE
+ 
+    DEPENDÊNCIAS UTILIZADAS:
+        - Mongoose
+        - Express
+        - Nodemon
+        - Dotenv-safe
 
-Dependências Utilizadas:
 
-Mongoose
-Express
-Nodemon
+INSTRUÇÕES PARA A UTILIZAÇÃO DA API
 
-Para utilizar, é necessário inicializar o node_modules a partir do comando [$ npm install] no terminal. 
+ - Para utilizar esta API é necessária a instalação das tecnologias NodeJS e MongoDB.
+
+    Instalação: 
+        1. Faça um Fork desse repositório para seu GitHub;
+        2. Clone seu repositório para seu ambiente local;
+        3. Abra o console e digite os comandos:
+
+           $ npm init 
+           $ npm install
+
+    Inicialiazação:
+           $ npm start
+
+
+CONTRIBUINDO COM O PROJETO
+
+1. Faça o fork do projeto
+2. Crie uma branch para sua modificação (git checkout -b feature/any)
+3. Faça o commit (git commit -am 'Add some any')
+4. Push (git push origin feature/any)
+5. Crie um novo Pull Request
+
+FEATURES E ROTAS
+
+Esta API está sendo executada na `porta 8080` e para que todas as rotas possam ser acessadas localmente é necessário utlizar `http://localhost:8080/` antes dos endpoints de requisição.
+
+Manipulando registros (Usuária)
+
+| Feature | Método | Rota |
+|---------|--------|------|
+| Lista de todas as mentoras | GET | '/mentoras' |
+| Lista de todas as mentoras por área | GET | '/mentoras/area/<AREA_DE_APRENDIZADO_DESEJADO>' |
+| Filtro de mentoras disponíveis para mentorar | GET | 'mentoras/disponiveis' |
+
+| Feature | Método | Rota |
+|---------|--------|------|
+| Lista de todas as mentorandas | GET | '/mentorandas' |
+| Lista de todas as mentorandas por área | GET | '/mentorandas/area/<AREA_DE_APRENDIZADO_DESEJADO>' |
+
+Manipulando registros (administradora)
+
+| Feature | Método | Rota |
+|---------|--------|------|
+| Cadastro de mentora | POST | '/mentoras' |
+| Atualização de cadastro de mentoras | PUT | '/mentoras/id' |
+| Atualização de 'valor' de mentoras | PATCH | '/mentoras/id' |
+| Remoção de mentoras | DELETE | '/mentoras/id' |
+
+| Cadastro de mentoranda | POST | '/mentorandas' |
+| Atualização de cadastro de mentorandas | PUT | '/mentorandas/id' |
+| Atualização de 'valor' de mentorandas | PATCH | '/mentorandas/id' |
+| Remoção de mentoras | DELETE | '/mentorandas/id' |
+
+
 
